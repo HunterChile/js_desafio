@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="img-card"></div>
+        
+        <h3>Laptop Gamer AMD</h3>
+        <div>
+            <!-- input cantidad -->
+            <div>
+            <input type="number" placeholder="Cantidad">
+            </div>
+            <!-- imput color -->
+            <div>
+            <input type="text" placeholder="Color">
+            </div>
+        </div>
+
+        
+        <div class="total-seccion">
+            <p>Precio: $400.000</p>
+        </div>
+
+
+            <div class="card-botonera">
+                <button onclick="calcularTotal()">calcular</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="total-seccion">
+        <p>
+            Total: $ <span class="valor-total">0</span>
+        </p>
+        <p>
+            Cantidad: <span class="cantidad-total">0</span>
+        </p>
+        <div class="color">
+            <p>Color:</p>
+            <div></div>
+
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
